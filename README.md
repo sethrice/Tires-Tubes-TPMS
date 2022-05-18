@@ -30,3 +30,19 @@ This repo is built for knowledge sharing of how to build a Tire  Pressure Monito
 
  - MariaDB (Database): https://github.com/home-assistant/addons/tree/master/mariadb 
 
+
+**Rename Entity:**
+![Rename Entity](https://cdn.juicedwheels.com/content/Rename%20Entity.gif)
+
+
+**Change Pressure Unit:**
+![Change Pressure Unit](https://cdn.juicedwheels.com/content/Change%20Pressure%20Unit.gif)
+
+
+**Add New Guagues:**
+![New Guages](https://cdn.juicedwheels.com/content/Add%20new%20guages.gif)
+
+
+**Modify Guage Colors**
+![Modify Guage Colors](https://cdn.juicedwheels.com/content/Change%20Pressure%20Unit.gif)
+https://cdn.juicedwheels.com/content/Modify%20Guage%20Colors.gif
