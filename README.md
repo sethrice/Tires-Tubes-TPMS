@@ -1,7 +1,18 @@
 # Tires-Tubes-TPMS
-This repo is built for knowledge sharing of how to build a Tire  Pressure Monitoring System (TPMS)
+This repo is built for knowledge sharing of how to build a Tire  Pressure Monitoring System (TPMS) for a fleet of E-Bikes.  
 
-**Logical Diagram for this project:**
+This project was created out of the need to track tire pressure on several types of e-bikes of various of specifications. Utilizing cheap sensors and open source software the desired outcome was acheived. This project has the following features:
+
+ - Tracking of Tire Pressure and Tempature of several tires
+ - A dashboard that presents the collected data in easy to understand low/nominal/high guages
+ - Ability to set the low/nominal/high thresholds on a per tire basis
+ - A historic graph of the collected data which could be helpful in finding slow leaks
+ - A list of when the tire pressure data was last collected 
+
+Utilizing a wireless digital sensor on each tire allows for the reading of the tire pressure without needing to physically interact with the tire. The data from the Tire Pressure Monitor Sensors (TPMS) are collected using a software defined radio (SDR) that is tuned to capturing 433mhz frequencies. The data collected from the SDR is sent to a database that is then later quriered to provide the visual dashboard. All of the software used in this project is open source and the only investment needed is the phsyical hardware and time. 
+
+**Logical Diagram for this project:** 
+
 ![Logical View](./Diagrams/TPMS_Architecture_Logical.svg)
 
 **Physical Items needed for this project:**
@@ -44,5 +55,5 @@ This repo is built for knowledge sharing of how to build a Tire  Pressure Monito
 
 
 **Modify Guage Colors**
-![Modify Guage Colors](https://cdn.juicedwheels.com/content/Change%20Pressure%20Unit.gif)
-https://cdn.juicedwheels.com/content/Modify%20Guage%20Colors.gif
+![Modify Guage Colors](https://cdn.juicedwheels.com/content/Modify%20Guage%20Colors.gif)
+
